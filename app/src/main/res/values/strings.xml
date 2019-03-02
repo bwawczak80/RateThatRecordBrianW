@@ -1,0 +1,35 @@
+<resources>
+    <string name="claptonImageHeading">Eric Clapton\nOld Love</string>
+    <string name="alterbridgeImageHeading">Alterbridge\nWatch Over You</string>
+    <string name="nightwishImageHeading">Nightwish\nGhost Love Score</string>
+    <string name="app_name">RateThatRecordBrianW</string>
+    <string name="title">Rate That Record</string>
+    <string name="rate">Rate each song from 1 to 10</string>
+    <string name="vote">Vote</string>
+    <string name="claptonChoice">Eric Clapton \"Old Love\" was your top pick!</string>
+    <string name="alterbridgeChoice">Alterbridge \"Watch Over You\" was your top pick!</string>
+    <string name="nightwishChoice">Nightwish \"Ghost Love Score\" was your top pick!</string>
+    <string name="tie">It\'s a tie for first!</string>
+    <string name="ranking">Your Ranking: </string>
+    <string name="clapRank">\nEric Clapton \"Old Love\" :</string>
+    <string name="alterRank">\nAlterbridge \"Watch Over You\" :</string>
+    <string name="nightRank">\nNightwish \"Ghost Love Score\" :</string>
+
+
+    <string name="play">Play Button</string>
+    <string name="claptonGuitar">Eric Clapton playing guitar</string>
+    <string name="kennedyGuitar">Myles Kennedy playing guitar</string>
+    <string name="nightwishBand">Nightwish band picture</string>
+    <string-array name="nums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

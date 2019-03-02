@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spClapton"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="120dp"
+        android:entries="@array/nums"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <ImageButton
+        android:id="@+id/btnClaptonPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
+        app:srcCompat="@drawable/play" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="170dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/eric_clapton"
+        android:contentDescription="@string/claptonGuitar"
+        android:gravity="bottom|end"
+        android:text="@string/claptonImageHeading"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/btnAlterbridgePlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2"
+        app:srcCompat="@drawable/play" />
+
+    <Spinner
+        android:id="@+id/spAlterbridge"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="120dp"
+        android:entries="@array/nums"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/vote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNightwishPlay" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/rate"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="170dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/myles_kennedy"
+        android:contentDescription="@string/kennedyGuitar"
+        android:gravity="bottom|end"
+        android:text="@string/alterbridgeImageHeading"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClaptonPlay" />
+
+    <Spinner
+        android:id="@+id/spNightwish"
+        android:layout_width="85dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="120dp"
+        android:entries="@array/nums"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
+    <ImageButton
+        android:id="@+id/btnNightwishPlay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt3"
+        app:srcCompat="@drawable/play" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="170dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/nightwish"
+        android:contentDescription="@string/nightwishBand"
+        android:gravity="bottom|end"
+        android:text="@string/nightwishImageHeading"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlterbridgePlay" />
+
+</android.support.constraint.ConstraintLayout>
